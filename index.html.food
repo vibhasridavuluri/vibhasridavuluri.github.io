@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website Tutorial</title>
+	<link href='https://fonts.googleapis.com/css?family=Holtwood One SC' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+	<div class = "dropdown">
+		<button class = "dropbtn"> Dropdown </button>
+		<div class = "dropdown-content">
+			<a href = "#doubleyellow"> Link 1 </a>
+			<a href = "#"> Link 2 </a>
+			<a href = "#"> Link 3 </a>
+		</div>
+	</div>
+	<div id="page-wrapper">
+		<div id="name">
+			<!--TODO: Add a Title in a header tag -->
+				<h1> Vibha </h1>
+			<!--TODO: Add a description in a paragraph tag-->
+				<p> My life </p>
+		</div>
+
+		<div id="blue">
+			<!-- TODO: Add an Image -->
+				<img src="me.JPG">
+			<!-- TODO: Add a title for the image -->
+			<h3> Introduction </h3>
+			<!-- TODO: Add a description for the image in a paragraph tag-->
+			<p>  </p>
+		</div>
+
+
+		<div id="doubleyellow">
+			<!-- TODO: Add two images with the class name double-->
+				<img src= "charcoalicecream.jpg">
+				<img src= "IMG_2158.jpg">
+			<!-- TODO: Add a header to describe the images -->
+				<h3> Ice Cream</h3>
+		</div>
+
+
+		<div id="green">
+			<!-- TODO: Add an image -->
+				<img src = "macaroons.jpg">
+			<!-- TODO: Add a header with the class name brown -->
+				<h3 class="brown" > macaroons </h3>
+				<!-- TODO: Add a paragraph -->
+				<p>  beautiful, popular french pastries that are great for social media or to just enjoy!</p>
+		</div>
+
+		<div id="yellow">
+			<!-- TODO: Do the same as the previous div, but add a different image -->
+				<img src = "crepes.jpg">
+				<h3 class="brown"> crepes </h3>
+				<p> tasty thin pancakes filled with refreshing fruit and sauces, great for a sweet treat or a
+					late breakfast out. </p1>
+		</div>
+
+
+
+		<div id="white">
+			<!-- TODO: Add three images with the class name triple -->
+				<div class="triple">
+						<img src = "tart.jpg">
+						<img src = "tart1.jpg">
+						<img src = "tart2.jpg">
+			<!-- TODO: Add a header with the class name brown -->
+			<h1 class = "brown"> Berry Tart </h1>
+			<!-- TODO: Add a paragraph to describe the image -->
+				<p> french creamy, crunchy, french pastries </p>
+		</div>
+
+
+		<div id="content_holder">
+			<div class="content">
+				<!-- TODO: Add an image -->
+				<img src = "meringue.jpg">
+				<!-- TODO: add a paragraph -->
+				<p> crunchy on the outside, melt in your mouth, delicious, delectible bte-sized sweets </p>
+			</div>
+
+			<div class="content">
+				<!-- TODO: Add an image -->
+				<img src = "coccookies.jpg">
+				<!-- TODO: add a paragraph -->
+				 <p> tasty, soft, crunchy, warmy, melty cookies, great for any circumstance </p>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+</body>
+</html>
